@@ -1,0 +1,256 @@
+{
+    "patterns": [
+      {
+        "name": "Straw Man",
+        "regex": "\\b(?:building|creating|constructing)\\b.*\\b(?:a|an)\\b.*\\b(?:argument|position|case)\\b"
+      },
+      {
+        "name": "Circular Reasoning",
+        "regex": "\\b(?:because|since)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:because|since)\\b"
+      },
+      {
+        "name": "Appeal to Authority",
+        "regex": "\\b(?:experts|authorities|scientists|studies)\\b.*\\b(?:say|claim)\\b"
+      },
+      {
+        "name": "Ad Populum (Bandwagon)",
+        "regex": "\\b(?:everyone|everybody|people)\\b.*\\b(?:believes|thinks|says)\\b"
+      },
+      {
+        "name": "Appeal to Ignorance",
+        "regex": "\\b(?:since|because)\\b.*\\b(?:nobody|no one|nothing)\\b.*\\b(?:can|has|hasn't)\\b.*\\b(?:disproved|proved)\\b"
+      },
+      {
+        "name": "Hasty Generalization",
+        "regex": "\\b(?:based on|from)\\b.*\\b(?:few|some|several)\\b.*\\b(?:examples|cases)\\b.*\\b(?:conclude|generalize)\\b"
+      },
+      {
+        "name": "Red Herring",
+        "regex": "\\b(?:changing|shifting)\\b.*\\b(?:subject|topic)\\b.*\\b(?:away from|from)\\b.*\\b(?:the main issue|the point)\\b"
+      },
+      {
+        "name": "Appeal to Emotion",
+        "regex": "\\b(?:feel|emotion|sympathy)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:must be true|is true)\\b"
+      },
+      {
+        "name": "Tu Quoque",
+        "regex": "\\b(?:you|they)\\b.*\\b(?:did|do)\\b.*\\b(?:it too|the same)\\b"
+      },
+      {
+        "name": "False Dilemma",
+        "regex": "\\b(?:either|or)\\b.*\\b(?:choose|accept)\\b.*\\b(?:this|that)\\b"
+      },
+      {
+        "name": "Begging the Question",
+        "regex": "\\b(?:assuming|presuming)\\b.*\\b(?:the conclusion|what they need to prove)\\b"
+      },
+      {
+        "name": "No True Scotsman",
+        "regex": "\\b(?:no true|not a true)\\b.*\\b(?:Scotsman|believer|supporter)\\b.*\\b(?:would|could|should)\\b"
+      },
+      {
+        "name": "Appeal to Tradition",
+        "regex": "\\b(?:because|since)\\b.*\\b(?:it's always been done that way|it's tradition)\\b"
+      },
+      {
+        "name": "Equivocation",
+        "regex": "\\b(?:word|term|phrase)\\b.*\\b(?:can mean|means)\\b.*\\b(?:this|that)\\b"
+      },
+      {
+        "name": "Loaded Question",
+        "regex": "\\b(?:when|where|how|why)\\b.*\\b(?:stop beating your wife|have you stopped beating your wife)\\b"
+      },
+      {
+        "name": "Composition and Division",
+        "regex": "\\b(?:whole|part)\\b.*\\b(?:must be|must not be)\\b.*\\b(?:true|true of)\\b"
+      },
+      {
+        "name": "Genetic Fallacy",
+        "regex": "\\b(?:origin|source|history)\\b.*\\b(?:therefore|thus)\\b.*\\b(?:valid|invalid)\\b"
+      },
+      {
+        "name": "Appeal to Nature",
+        "regex": "\\b(?:natural|unnatural)\\b.*\\b(?:therefore|thus)\\b.*\\b(?:good|bad)\\b"
+      },
+      {
+        "name": "Texas Sharpshooter",
+        "regex": "\\b(?:selectively|selective)\\b.*\\b(?:evidence|examples)\\b.*\\b(?:supports|proves|confirms)\\b"
+      },
+      {
+        "name": "Anecdotal Evidence",
+        "regex": "\\b(?:I know someone|I heard a story)\\b.*\\b(?:who|that)\\b.*\\b(?:supports|proves)\\b.*\\b(?:this|that)\\b"
+      },
+      {
+        "name": "Fallacy of Sunk Costs",
+        "regex": "\\b(?:invested|spent)\\b.*\\b(?:so much|a lot)\\b.*\\b(?:cannot|can't|shouldn't)\\b.*\\b(?:abandon|stop|change)\\b"
+      },
+      {
+        "name": "Appeal to Fear",
+        "regex": "\\b(?:fear|scare tactics)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:must be true|is true)\\b"
+      },
+      {
+        "name": "Fallacy of Relative Privation",
+        "regex": "\\b(?:there are|exist)\\b.*\\b(?:worse problems|more important issues)\\b.*\\b(?:than|to address than)\\b"
+      },
+      {
+        "name": "False Dilemma",
+        "regex": "\\b(?:either|or)\\b.*\\b(?:but|however|unless|except|instead|yet)\\b"
+      },
+      {
+        "name": "Post Hoc Ergo Propter Hoc",
+        "regex": "\\b(?:after|since|because|due to|therefore|thus|so)\\b.*\\b(?:before|until|unless)\\b"
+      },
+      {
+        "name": "Appeal to Ignorance",
+        "regex": "\\b(?:prove|proves|proved|proving|disprove|disproves|disproved|disproving|evidence|prove|proof)\\b.*\\b(?:true|false|correct|incorrect)\\b"
+      },
+      {
+        "name": "Begging the Question",
+        "regex": "\\b(?:assume|assumes|assumed|assuming|presume|presumes|presumed|presuming|begging the question)\\b.*\\b(?:true|false|correct|incorrect)\\b"
+      },
+      {
+        "name": "Appeal to Tradition",
+        "regex": "\\b(?:because|since)\\b.*\\b(?:it's always been done that way|it's tradition)\\b"
+      },
+      {
+        "name": "Equivocation",
+        "regex": "\\b(?:word|term|phrase)\\b.*\\b(?:can mean|means)\\b.*\\b(?:this|that)\\b"
+      },
+      {
+        "name": "Loaded Question",
+        "regex": "\\b(?:when|where|how|why)\\b.*\\b(?:stop beating your wife|have you stopped beating your wife)\\b"
+      },
+      {
+        "name": "Composition and Division",
+        "regex": "\\b(?:whole|part)\\b.*\\b(?:must be|must not be)\\b.*\\b(?:true|true of)\\b"
+      },
+      {
+        "name": "Genetic Fallacy",
+        "regex": "\\b(?:origin|source|history)\\b.*\\b(?:therefore|thus)\\b.*\\b(?:valid|invalid)\\b"
+      },
+      {
+        "name": "Appeal to Nature",
+        "regex": "\\b(?:natural|unnatural)\\b.*\\b(?:therefore|thus)\\b.*\\b(?:good|bad)\\b"
+      },
+      {
+        "name": "Texas Sharpshooter",
+        "regex": "\\b(?:selectively|selective)\\b.*\\b(?:evidence|examples)\\b.*\\b(?:supports|proves|confirms)\\b"
+      },
+      {
+        "name": "Anecdotal Evidence",
+        "regex": "\\b(?:I know someone|I heard a story)\\b.*\\b(?:who|that)\\b.*\\b(?:supports|proves)\\b.*\\b(?:this|that)\\b"
+      },
+      {
+        "name": "Fallacy of Sunk Costs",
+        "regex": "\\b(?:invested|spent)\\b.*\\b(?:so much|a lot)\\b.*\\b(?:cannot|can't|shouldn't)\\b.*\\b(?:abandon|stop|change)\\b"
+      },
+      {
+        "name": "Appeal to Fear",
+        "regex": "\\b(?:fear|scare tactics)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:must be true|is true)\\b"
+      },
+      {
+        "name": "Fallacy of Relative Privation",
+        "regex": "\\b(?:there are|exist)\\b.*\\b(?:worse problems|more important issues)\\b.*\\b(?:than|to address than)\\b"
+      },
+      {
+        "name": "Middle Ground",
+        "regex": "\\b(?:extreme|polar)\\b.*\\b(?:position|view)\\b.*\\b(?:compromise|middle ground)\\b"
+      },
+      {
+        "name": "Appeal to the Stone",
+        "regex": "\\b(?:ridiculous|absurd)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:false|invalid)\\b"
+      },
+      {
+        "name": "Cherry Picking",
+        "regex": "\\b(?:selective|selectively)\\b.*\\b(?:evidence|data|information)\\b.*\\b(?:supports|proves|confirms)\\b"
+      },
+      {
+        "name": "Ad Misericordiam",
+        "regex": "\\b(?:pity|sympathy)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:must be true|is true)\\b"
+      },
+      {
+        "name": "Ambiguity Fallacy",
+        "regex": "\\b(?:ambiguous|ambiguity)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:true|false|valid|invalid)\\b"
+      },
+      {
+        "name": "Fallacy of Division",
+        "regex": "\\b(?:whole|group)\\b.*\\b(?:must be|must not be)\\b.*\\b(?:true|true of)\\b"
+      },
+      {
+        "name": "Slippery Slope",
+        "regex": "\\b(?:if|when)\\b.*\\b(?:happen|occur)\\b.*\\b(?:then|next|subsequently)\\b.*\\b(?:catastrophe|disaster)\\b"
+      },
+      {
+        "name": "Burden of Proof",
+        "regex": "\\b(?:prove|proves|proved|proving|disprove|disproves|disproved|disproving|evidence|prove|proof)\\b.*\\b(?:true|false|correct|incorrect)\\b"
+      },
+      {
+        "name": "Appeal to the Future",
+        "regex": "\\b(?:future|soon)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:must be true|is true)\\b"
+      },
+      {
+        "name": "Appeal to Probability",
+        "regex": "\\b(?:likely|probable|possible)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:must be true|is true)\\b"
+      },
+      {
+        "name": "Appeal to Wealth",
+        "regex": "\\b(?:rich|wealthy)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:true|false|valid|invalid)\\b"
+      },
+      {
+        "name": "Fallacy of Suppressed Evidence",
+        "regex": "\\b(?:ignore|ignores|ignored|ignoring|withhold|withholds|withheld|withholding)\\b.*\\b(?:evidence|information|data)\\b.*\\b(?:supports|proves|confirms)\\b"
+      },
+      {
+        "name": "Chronological Snobbery",
+        "regex": "\\b(?:modern|contemporary)\\b.*\\b(?:therefore|thus)\\b.*\\b(?:valid|invalid|better|worse)\\b"
+      },
+      {
+        "name": "Guilt by Association",
+        "regex": "\\b(?:associated with|linked to)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:true|false|valid|invalid)\\b"
+      },
+      {
+        "name": "Appeal to Vanity",
+        "regex": "\\b(?:flattery|compliment)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:must be true|is true)\\b"
+      },
+      {
+        "name": "Ad Nauseam",
+        "regex": "\\b(?:repeat|repeatedly)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:true|false|valid|invalid)\\b"
+      },
+      {
+        "name": "Appeal to Common Practice",
+        "regex": "\\b(?:common|commonly)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:true|false|valid|invalid)\\b"
+      },
+      {
+        "name": "Moving the Goalposts",
+        "regex": "\\b(?:move|moving)\\b.*\\b(?:goalposts|criteria)\\b.*\\b(?:after|once)\\b.*\\b(?:achieved|met)\\b"
+      },
+      {
+        "name": "Personal Incredulity",
+        "regex": "\\b(?:hard to believe|can't believe)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:true|false|valid|invalid)\\b"
+      },
+      {
+        "name": "False Attribution",
+        "regex": "\\b(?:attribute|attributing)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:true|false|valid|invalid)\\b"
+      },
+      {
+        "name": "Argument from Silence",
+        "regex": "\\b(?:silent|silence)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:true|false|valid|invalid)\\b"
+      },
+      {
+        "name": "Ad Verecundiam",
+        "regex": "\\b(?:respectable|respect|reputable)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:true|false|valid|invalid)\\b"
+      },
+      {
+        "name": "False Analogy",
+        "regex": "\\b(?:analogy|analogous)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:true|false|valid|invalid)\\b"
+      },
+      {
+        "name": "Appeal to Complexity",
+        "regex": "\\b(?:complex|complicated)\\b.*\\b(?:therefore|thus|so)\\b.*\\b(?:true|false|valid|invalid)\\b"
+      },
+      {
+        "name": "Relative Privation",
+        "regex": "\\b(?:there are|exist)\\b.*\\b(?:worse problems|more important issues)\\b.*\\b(?:than|to address than)\\b"
+      }
+    ]
+  }
